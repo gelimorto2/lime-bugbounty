@@ -1,0 +1,22 @@
+# Large binaries
+*.apk
+*.xapk
+*.apks
+*.idsig
+*.so
+*.so.xz
+*.dex
+*.zip
+
+# Build artifacts
+decompiled/apktool-out/
+decompiled/jadx-out/
+decompiled/patched-*.apk
+decompiled/patched-*.apk.idsig
+
+# Runtime
+venv/
+__pycache__/
+*.pyc
+*.log
+lime_traffic.log
